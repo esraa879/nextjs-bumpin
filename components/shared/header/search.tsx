@@ -1,4 +1,5 @@
 
+import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { SelectItem,SelectContent, SelectTrigger, SelectValue, Select } from "@/components/ui/select"
 import { APP_NAME } from "@/lib/constants"
@@ -29,10 +30,10 @@ All  </SelectItem>
          name="q"
          type="search"        
         />
-        <button type="submit" className="bg-primary-foreground text-black rounded-s-none rounded-e-md h-full px-3 py-2 ">
+        <Button type="submit" className="bg-primary-foreground text-black rounded-s-none rounded-e-md h-full px-3 py-3 ">
             <SearchIcon className="w-6 h-6"/>
 
-            </button>
+            </Button>
            </form>
     
     )
